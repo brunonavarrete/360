@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Kaleidoscope mp4 video example</title>
-    <script type="text/javascript" charset="utf-8" src="assets/js/kaleidoscope.min.js"> </script>
+    <script type="text/javascript" charset="utf-8" src="../../assets/js/kaleidoscope.min.js"> </script>
     <style type="text/css">
         #allContainer {
             position:absolute;
@@ -47,13 +47,13 @@
 <body>
     <div id="allContainer">
         <div id="container360"></div>
-        <img id="cookie-monster" src="./assets/img/cookie-monster.png">
+        <img id="cookie-monster" src="../../assets/img/cookie-monster.png">
     </div>
     <script type="text/javascript" charset="utf-8">
         (function() {
             var container = document.querySelector('#container360');
             var viewer = new Kaleidoscope.Video({
-                source: 'https://github.com/brunonavarrete/kaleidoscope/blob/gh-pages/assets/videos/cool.mp4',
+                source: '../../assets/videos/cool.mp4',
                 container: container,
                 height: container.clientHeight,
                 width: container.clientWidth,
